@@ -1,0 +1,52 @@
+{
+  "best_metric": 0.9788367575204568,
+  "best_model_checkpoint": "bert-finetuned-ner-lora/checkpoint-878",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 878,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9719932889856949,
+      "eval_f1": 0.862693663415034,
+      "eval_loss": 0.09856162965297699,
+      "eval_precision": 0.8409781045229343,
+      "eval_recall": 0.8855604173678896,
+      "eval_runtime": 26.3391,
+      "eval_samples_per_second": 123.391,
+      "eval_steps_per_second": 1.936,
+      "step": 439
+    },
+    {
+      "epoch": 1.1389521640091116,
+      "grad_norm": 0.24639955163002014,
+      "learning_rate": 0.0015444191343963554,
+      "loss": 0.1858,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.9788367575204568,
+      "eval_f1": 0.894680412371134,
+      "eval_loss": 0.08004295080900192,
+      "eval_precision": 0.8772440562833576,
+      "eval_recall": 0.9128239649949512,
+      "eval_runtime": 23.4117,
+      "eval_samples_per_second": 138.819,
+      "eval_steps_per_second": 2.178,
+      "step": 878
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 2195,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 777158500932396.0,
+  "train_batch_size": 32,
+  "trial_name": null,
+  "trial_params": null
+}
